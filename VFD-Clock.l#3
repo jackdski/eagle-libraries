@@ -129,7 +129,7 @@
 <wire x1="37.5" y1="0" x2="37.5" y2="1" width="0.127" layer="21"/>
 <wire x1="37.5" y1="1" x2="37.5" y2="17.77" width="0.127" layer="21"/>
 <wire x1="37.5" y1="17.77" x2="0" y2="17.77" width="0.127" layer="21"/>
-<text x="34" y="9.77" size="1.27" layer="21" rot="R90" align="center">HC-10
+<text x="34" y="9.77" size="1.27" layer="21" rot="R90" align="center">HC-05
 Bluetooth Module</text>
 <pad name="EN" x="1.27" y="2.54" drill="0.8" shape="square"/>
 <pad name="VCC" x="1.27" y="5.08" drill="0.8" shape="square"/>
@@ -205,7 +205,7 @@ Bluetooth Module</text>
 <pin name="RXD" x="15.24" y="5.08" length="middle" rot="R180"/>
 <pin name="TXD" x="15.24" y="2.54" length="middle" rot="R180"/>
 <pin name="STATE" x="15.24" y="0" length="middle" rot="R180"/>
-<text x="0" y="-2.54" size="1.778" layer="94" rot="R180" align="center">HC-10</text>
+<text x="0" y="-2.54" size="1.778" layer="94" rot="R180" align="center">HC-05</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -257,26 +257,6 @@ Bluetooth Module</text>
 <connect gate="G$1" pin="IN-" pad="P$4"/>
 <connect gate="G$1" pin="OUT+" pad="P$2"/>
 <connect gate="G$1" pin="OUT-" pad="P$3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HC-05">
-<gates>
-<gate name="G$1" symbol="HC-05" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="HC-05">
-<connects>
-<connect gate="G$1" pin="3V3" pad="VCC"/>
-<connect gate="G$1" pin="EN" pad="EN"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="RXD" pad="RX"/>
-<connect gate="G$1" pin="STATE" pad="STATE"/>
-<connect gate="G$1" pin="TXD" pad="TX"/>
 </connects>
 <technologies>
 <technology name=""/>
